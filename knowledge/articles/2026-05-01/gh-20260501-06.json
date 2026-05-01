@@ -1,0 +1,24 @@
+{
+  "id": "gh-20260501-06",
+  "title": "abhigyanpatwari/GitNexus",
+  "source": "github_trending",
+  "source_url": "https://github.com/abhigyanpatwari/GitNexus",
+  "collected_at": "2026-05-01T13:18:05Z",
+  "published_at": "2026-05-01T13:18:05Z",
+  "summary": "零服务器的代码智能引擎，将 GitHub 仓库或 ZIP 文件转换为交互式知识图谱。纯浏览器端运行（WebAssembly 版 Tree-sitter + LadybugDB），也提供 CLI + MCP 模式供 AI 编码工具（Cursor、Claude Code、Codex 等）集成。解析代码后建立依赖关系图、调用链、功能聚类和执行流，通过 16 个 MCP 工具（查询、上下文、影响分析、变更检测、重命名等）为 AI Agent 提供深度代码理解能力。",
+  "key_points": [
+    "纯浏览器端或 CLI 模式运行的代码知识图谱引擎，无需后端服务器",
+    "基于 Tree-sitter 解析代码 AST，构建函数/类/接口的完整依赖关系图",
+    "为 AI 编码 Agent 提供 16 个 MCP 工具，涵盖查询、影响分析、变更检测等场景",
+    "支持 16 种编程语言，包含导入解析、继承追踪、类型推断等深度分析",
+    "Claude Code 集成最深：MCP 工具 + Agent Skills + PreToolUse/PostToolUse 钩子"
+  ],
+  "tags": ["ai", "agent", "rag", "代码分析"],
+  "language": "zh",
+  "status": "analyzed",
+  "distribution": {
+    "telegram": false,
+    "feishu": false
+  },
+  "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+}

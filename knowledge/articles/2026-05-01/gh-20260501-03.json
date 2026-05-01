@@ -1,0 +1,24 @@
+{
+  "id": "gh-20260501-03",
+  "title": "Alishahryar1/free-claude-code",
+  "source": "github_trending",
+  "source_url": "https://github.com/Alishahryar1/free-claude-code",
+  "collected_at": "2026-05-01T13:18:05Z",
+  "published_at": "2026-05-01T13:18:05Z",
+  "summary": "免费使用 Claude Code 的代理工具，通过在本地运行一个兼容 Anthropic Messages API 的代理服务器，将 Claude Code 客户端的 API 请求路由到 NVIDIA NIM、OpenRouter、DeepSeek、LM Studio、llama.cpp 或 Ollama 等六种后端。支持按模型层级（Opus/Sonnet/Haiku）路由到不同提供商，保留 Claude Code 的流式输出、工具调用、推理块处理等标准能力。还提供 Discord/Telegram Bot 包装器和语音笔记转录功能。",
+  "key_points": [
+    "作为本地代理，将 Claude Code 的 Anthropic API 调用透明转发到免费的或本地的 LLM 后端",
+    "支持 NVIDIA NIM、OpenRouter、DeepSeek、LM Studio、llama.cpp、Ollama 六种提供者",
+    "按模型层级（Opus/Sonnet/Haiku）路由到不同提供者，支持混合配置",
+    "完整支持流式输出、工具调用、思考/推理块处理等 Claude Code 标准特性",
+    "可选集成 Discord/Telegram Bot 实现远程编码会话，及 Whisper 语音转录"
+  ],
+  "tags": ["ai", "claude", "llm", "开源工具"],
+  "language": "zh",
+  "status": "analyzed",
+  "distribution": {
+    "telegram": false,
+    "feishu": false
+  },
+  "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+}

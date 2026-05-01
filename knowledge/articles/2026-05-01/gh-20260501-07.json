@@ -1,0 +1,24 @@
+{
+  "id": "gh-20260501-07",
+  "title": "lsdefine/GenericAgent",
+  "source": "github_trending",
+  "source_url": "https://github.com/lsdefine/GenericAgent",
+  "collected_at": "2026-05-01T13:18:05Z",
+  "published_at": "2026-05-01T13:18:05Z",
+  "summary": "极简可自我进化的自主 Agent 框架，核心代码仅 ~3K 行，通过 9 个原子工具（代码执行、文件读写、网页感知等）+ 约 100 行的 Agent Loop 赋予 LLM 系统级控制能力。核心创新在于「自我进化」机制：每解决一个新任务自动将执行路径固化为可复用的 Skill，形成专属技能树。分层记忆系统（L0-L4）将上下文窗口控制在 30K 以内，显著低于同类 Agent 的 200K-1M。已发表学术技术报告。",
+  "key_points": [
+    "极简架构：核心仅 ~3K 行代码，Agent Loop 约 100 行，无复杂依赖",
+    "自我进化：每解决一个新任务自动固化为 Skill，使用越久能力越强",
+    "极致省 Token：分层记忆将上下文窗口控制在 30K 以内，是同类 Agent 的 1/6 到 1/30",
+    "强执行力：注入真实浏览器（保留登录态），通过 9 个原子工具直接控制系统",
+    "支持 Claude / Gemini / Kimi / MiniMax 等主流模型，跨平台运行"
+  ],
+  "tags": ["ai", "agent", "llm"],
+  "language": "zh",
+  "status": "analyzed",
+  "distribution": {
+    "telegram": false,
+    "feishu": false
+  },
+  "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+}

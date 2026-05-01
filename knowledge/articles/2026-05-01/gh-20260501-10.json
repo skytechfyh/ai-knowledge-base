@@ -1,0 +1,24 @@
+{
+  "id": "gh-20260501-10",
+  "title": "CJackHwang/ds2api",
+  "source": "github_trending",
+  "source_url": "https://github.com/CJackHwang/ds2api",
+  "collected_at": "2026-05-01T13:18:05Z",
+  "published_at": "2026-05-01T13:18:05Z",
+  "summary": "Go 语言实现的 DeepSeek 兼容中间件接口，将 DeepSeek Web 对话能力转换为 OpenAI、Claude 与 Gemini 兼容的 API。后端纯 Go 实现，前端 React WebUI 管理台。核心能力包括多账号轮询、并发队列控制、DeepSeek PoW 纯 Go 实现、Tool Calling 防泄漏处理、多平台兼容（Codex CLI、OpenAI/Anthropic SDK、Vercel AI SDK、LangChain 等）。支持 Docker、Vercel Serverless 和 Zeabur 一键部署。",
+  "key_points": [
+    "将 DeepSeek 的对话能力包装为 OpenAI/Claude/Gemini 三种兼容 API 接口",
+    "Go 全量实现后端，提供高效的多账号轮询和并发队列控制",
+    "DeepSeek PoW 采用纯 Go 实现，毫秒级响应",
+    "Tool Calling 防泄漏处理：仅在非代码块上下文启用执行识别，支持 DSML 规范输出",
+    "提供 React WebUI 管理台（/admin），支持配置管理、账号测试、会话清理等功能"
+  ],
+  "tags": ["ai", "llm"],
+  "language": "zh",
+  "status": "analyzed",
+  "distribution": {
+    "telegram": false,
+    "feishu": false
+  },
+  "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+}

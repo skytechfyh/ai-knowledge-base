@@ -1,0 +1,282 @@
+[
+  {
+    "id": "gh-20260501-01",
+    "title": "mattpocock/skills",
+    "source": "github_trending",
+    "source_url": "https://github.com/mattpocock/skills",
+    "collected_at": "2026-05-01T13:18:05Z",
+    "published_at": "2026-05-01T13:18:05Z",
+    "summary": "Matt Pocock 出品的 AI 编程 Agent 技能（Skills）集合，包含一系列可复用、可组合的工程实践技能，涵盖需求对齐（grill-me）、测试驱动开发（tdd）、调试诊断（diagnose）、架构改进（improve-codebase-architecture）等核心场景。每个 Skill 以 Markdown 文件定义，通过 npx 一键安装到 Claude Code、Cursor、Codex 等主流 AI 编码工具中。核心设计哲学强调小粒度、易适配、可组合，反对大而全的「笼统方案」——让 Agent 真正理解代码库上下文，而非单纯追求自动化。",
+    "key_points": [
+      "提供一套针对 AI 编码 Agent 的可复用工程技能，涵盖需求对齐、TDD、调试、代码审查等环节",
+      "核心设计理念是小粒度、可组合、易适配，与 GSD/BMAD 等大而全方案形成对比",
+      "通过 npx skills@latest add 一键安装，支持 Claude Code、Cursor、Codex 等多种 AI 工具",
+      "包含 grill-me（需求对齐）、tdd（红绿重构）、diagnose（调试诊断）、improve-codebase-architecture（架构改进）等旗舰技能",
+      "强调共享语言（CONTEXT.md）和 ADR 文档来减少 Agent 的 token 消耗并提高代码一致性"
+    ],
+    "technical_highlights": [
+      "Skill 以纯 Markdown 定义，无额外 DSL，降低了自定义和贡献门槛",
+      "CLAUDE.md + CONTEXT.md + ADR 三层文档体系，实现从项目语境到决策记录的完整覆盖",
+      "通过 /grill-with-docs 技能将需求对齐与共享语言提炼合二为一，减少 Agent 理解偏差"
+    ],
+    "value_score": 7,
+    "value_score_reason": "这套技能体系将经过验证的软件工程实践（TDD、ADR、领域驱动设计）系统性地适配到 AI 编码 Agent 场景，解决了「Agent 不理解上下文」这一核心痛点。grill-me 需求对齐和 shared language 机制设计精良，实用价值高。但本质上是对已有工程方法论的适配封装，非突破性技术创新。排名 GitHub Trending 第 1（5.1 万星），反映了市场对其价值的高度认可。",
+    "tags": ["AI", "Claude", "AI Agent"],
+    "language": "zh",
+    "status": "analyzed",
+    "distribution": { "telegram": false, "feishu": false },
+    "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+  },
+  {
+    "id": "gh-20260501-02",
+    "title": "forrestchang/andrej-karpathy-skills",
+    "source": "github_trending",
+    "source_url": "https://github.com/forrestchang/andrej-karpathy-skills",
+    "collected_at": "2026-05-01T13:18:05Z",
+    "published_at": "2026-05-01T13:18:05Z",
+    "summary": "基于 Andrej Karpathy 对 LLM 编程缺陷观察提炼的单文件 CLAUDE.md 指南，包含四条核心原则：先思考再编码（Think Before Coding）、简洁至上（Simplicity First）、精准修改（Surgical Changes）、目标驱动执行（Goal-Driven Execution）。每条原则对应 AI 编码 Agent 的典型失败模式（假设过多、过度抽象、误改无关代码、缺乏验证循环），通过明确的指令约束 Agent 行为。支持 Claude Code 插件安装，也兼容 Cursor。",
+    "key_points": [
+      "提炼自 Andrej Karpathy 对 LLM 编程缺陷的系统性观察，针对性强",
+      "四条核心原则直击 AI 编码 Agent 的四大典型失败模式",
+      "Goal-Driven Execution 原则将指令式任务转化为声明式目标+验证循环，利用 LLM 擅长循环验证的优势",
+      "单文件 CLAUDE.md 设计，安装简便，可通过 curl 或插件市场引入",
+      "项目代码库本身完全由 AI Agent 自主构建，体现了该指南的实际效果"
+    ],
+    "technical_highlights": [
+      "将软件工程最佳实践（测试先行、最小改动原则）编码为 Agent 可执行的指令范式",
+      "Goal-Driven Execution 的「成功标准→验证循环」模式利用了 LLM 的循环执行优势，非简单的提示词堆砌",
+      "Surgical Changes 原则提供了精确的编辑边界规则，从根本上解决 Agent 误改代码的问题"
+    ],
+    "value_score": 6,
+    "value_score_reason": "Karpathy 的洞察力是项目的核心价值，四原则精准概括了 LLM 编码的典型问题。但本质上是一份高质量的 Prompt 工程产物，技术深度有限，没有提出新的算法或系统架构。104k 星的天量热度更多来自 Karpathy 的品牌效应和话题性。对于已有 AI 编码经验的开发者，信息增量有限。",
+    "tags": ["AI", "Claude", "LLM", "Prompt Engineering"],
+    "language": "zh",
+    "status": "analyzed",
+    "distribution": { "telegram": false, "feishu": false },
+    "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+  },
+  {
+    "id": "gh-20260501-03",
+    "title": "Alishahryar1/free-claude-code",
+    "source": "github_trending",
+    "source_url": "https://github.com/Alishahryar1/free-claude-code",
+    "collected_at": "2026-05-01T13:18:05Z",
+    "published_at": "2026-05-01T13:18:05Z",
+    "summary": "免费使用 Claude Code 的代理工具，通过在本地运行一个兼容 Anthropic Messages API 的代理服务器，将 Claude Code 客户端的 API 请求路由到 NVIDIA NIM、OpenRouter、DeepSeek、LM Studio、llama.cpp 或 Ollama 等六种后端。支持按模型层级（Opus/Sonnet/Haiku）路由到不同提供商，保留 Claude Code 的流式输出、工具调用、推理块处理等标准能力。还提供 Discord/Telegram Bot 包装器和语音笔记转录功能。",
+    "key_points": [
+      "作为本地代理，将 Claude Code 的 Anthropic API 调用透明转发到免费的或本地的 LLM 后端",
+      "支持 NVIDIA NIM、OpenRouter、DeepSeek、LM Studio、llama.cpp、Ollama 六种提供者",
+      "按模型层级（Opus/Sonnet/Haiku）路由到不同提供者，支持混合配置",
+      "完整支持流式输出、工具调用、思考/推理块处理等 Claude Code 标准特性",
+      "可选集成 Discord/Telegram Bot 实现远程编码会话，及 Whisper 语音转录"
+    ],
+    "technical_highlights": [
+      "通过协议适配层将 OpenAI Chat 和 Anthropic Messages 两种协议互转，NIM 使用 OpenAI 协议中转",
+      "Local request optimization 可本地回答 Claude Code 的轻量探测请求，节省远程 API 调用",
+      "支持 Agent 端 /model 命令动态切换模型，无需重启代理"
+    ],
+    "value_score": 7,
+    "value_score_reason": "解决了 Claude Code 必须付费订阅的硬约束，让开发者可以自由选择免费或本地模型。工程实现扎实（561 次提交，Python 3.14，完整测试覆盖）。支持按模型层级选择不同提供商的设计很实用。但本质上是一个协议适配代理，技术壁垒不高。Hacker News 和 GitHub Trending 双热门反映了强烈的市场需求。",
+    "tags": ["AI", "Claude", "LLM", "开源工具"],
+    "language": "zh",
+    "status": "analyzed",
+    "distribution": { "telegram": false, "feishu": false },
+    "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+  },
+  {
+    "id": "gh-20260501-04",
+    "title": "TauricResearch/TradingAgents",
+    "source": "github_trending",
+    "source_url": "https://github.com/TauricResearch/TradingAgents",
+    "collected_at": "2026-05-01T13:18:05Z",
+    "published_at": "2026-05-01T13:18:05Z",
+    "summary": "基于多智能体 LLM 的金融量化交易框架，模拟真实交易公司的组织架构。系统包含基本面分析师、情绪分析师、新闻分析师、技术分析师四类分析角色，搭配多头/空头研究员进行辩论式验证，再由 Trader Agent 制定交易决策，经风险管理部门评估后由投资组合经理最终批准。基于 LangGraph 构建，支持 LangGraph Checkpoint 断点续跑和持久化决策日志。配套学术论文发表于 arXiv。",
+    "key_points": [
+      "多 Agent 协作架构，模拟真实量化交易公司的组织分工和决策流程",
+      "包含基本面/情绪/新闻/技术四类分析师 + 多头/空头研究员 + Trader + 风控 + 投资组合经理",
+      "基于 LangGraph 构建，支持断点续跑（Checkpoint Resume）和持久化决策日志",
+      "支持 OpenAI、Google、Anthropic、xAI、DeepSeek、Qwen 等十余种 LLM 后端",
+      "附有学术论文支撑（arXiv 2412.20138），已被引用多次"
+    ],
+    "technical_highlights": [
+      "辩论式验证机制：多头/空头研究员对分析师结论进行结构化辩论，提高决策稳健性",
+      "LangGraph Checkpoint 机制支持长时间运行的交易分析任务断点续跑",
+      "持久化决策记忆：自动记录历史决策和收益率，在后续分析中注入反思上下文"
+    ],
+    "value_score": 7,
+    "value_score_reason": "多 Agent 交易框架的架构设计完整且专业，模拟了真实交易团队的分工。有学术论文支撑增加了可信度。支持 10+ 种 LLM 后端体现了良好的工程适配性。但量化交易 Agent 赛道竞争激烈（FinGPT、FinRobot 等），差异化不够显著；且金融市场的实际有效性尚未有充分实证。",
+    "tags": ["AI", "Agent", "LLM", "Finance"],
+    "language": "zh",
+    "status": "analyzed",
+    "distribution": { "telegram": false, "feishu": false },
+    "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+  },
+  {
+    "id": "gh-20260501-05",
+    "title": "huggingface/ml-intern",
+    "source": "github_trending",
+    "source_url": "https://github.com/huggingface/ml-intern",
+    "collected_at": "2026-05-01T13:18:05Z",
+    "published_at": "2026-05-01T13:18:05Z",
+    "summary": "Hugging Face 出品的开源 ML 工程师 Agent，能够自主阅读论文、训练模型、部署 ML 模型。深度集成 Hugging Face 生态，通过 ToolRouter 提供对 HF 文档、数据集、模型仓库、GitHub 代码搜索、沙箱执行等工具的访问。采用 submission_loop 架构，支持最多 300 次迭代的自主循环，包含 doom loop 检测机制防止 Agent 陷入死循环。会话自动上传至 HF Dataset，支持 Agent Trace Viewer 查看。",
+    "key_points": [
+      "从论文阅读到模型训练再到部署的端到端自动化 ML Agent",
+      "深度集成 Hugging Face 生态：HF 文档、数据集、模型仓库、Space 等一站式访问",
+      "submission_loop 架构支持最多 300 次自主迭代循环",
+      "内置 Doom Loop Detector 检测重复工具调用模式并注入纠正提示",
+      "自动压缩上下文（170K 阈值触发），支持 Slack 通知网关"
+    ],
+    "technical_highlights": [
+      "ContextManager 自动压缩机制：对话历史超 170K token 时自动压缩，维持上下文可控",
+      "Doom Loop Detector 可检测 Agent 陷入重复工具调用的死循环模式并主动干预",
+      "基于 litellm 的多模型支持，可切换 Claude、GPT 等不同后端"
+    ],
+    "value_score": 7,
+    "value_score_reason": "Hugging Face 官方出品的 ML 工程 Agent，生态整合优势明显。架构设计完善（submission_loop、doom loop 检测、上下文压缩），工具链覆盖了 ML 工程全流程。但 7.8k 星相对较少，项目仍处于早期阶段，端到端的实际可用性和稳定性尚待验证。",
+    "tags": ["AI", "Agent", "Machine Learning"],
+    "language": "zh",
+    "status": "analyzed",
+    "distribution": { "telegram": false, "feishu": false },
+    "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+  },
+  {
+    "id": "gh-20260501-06",
+    "title": "abhigyanpatwari/GitNexus",
+    "source": "github_trending",
+    "source_url": "https://github.com/abhigyanpatwari/GitNexus",
+    "collected_at": "2026-05-01T13:18:05Z",
+    "published_at": "2026-05-01T13:18:05Z",
+    "summary": "零服务器的代码智能引擎，将 GitHub 仓库或 ZIP 文件转换为交互式知识图谱。纯浏览器端运行（WebAssembly 版 Tree-sitter + LadybugDB），也提供 CLI + MCP 模式供 AI 编码工具（Cursor、Claude Code、Codex 等）集成。解析代码后建立依赖关系图、调用链、功能聚类和执行流，通过 16 个 MCP 工具（查询、上下文、影响分析、变更检测、重命名等）为 AI Agent 提供深度代码理解能力。",
+    "key_points": [
+      "纯浏览器端或 CLI 模式运行的代码知识图谱引擎，无需后端服务器",
+      "基于 Tree-sitter 解析代码 AST，构建函数/类/接口的完整依赖关系图",
+      "为 AI 编码 Agent 提供 16 个 MCP 工具，涵盖查询、影响分析、变更检测等场景",
+      "支持 16 种编程语言，包含导入解析、继承追踪、类型推断等深度分析",
+      "Claude Code 集成最深：MCP 工具 + Agent Skills + PreToolUse/PostToolUse 钩子"
+    ],
+    "technical_highlights": [
+      "Leiden 社区聚类算法自动识别代码库的功能模块，生成凝聚力评分",
+      "预计算的影响分析（Blast Radius），一次调用即返回完整上下游，避免 LLM 多轮查询",
+      "LadybugDB 嵌入式数据库 + WASM 运行，实现完全客户端化的知识图谱存储与查询"
+    ],
+    "value_score": 8,
+    "value_score_reason": "GitNexus 的核心创新在于将代码知识图谱预计算并暴露为 MCP 工具，让 AI Agent 一次调用即可获得完整的代码结构上下文，而非传统 Graph RAG 需要多轮探索。零服务端架构降低了部署门槛。影响分析、聚类检测等功能的工程实现质量高。已被 3.3 万星验证市场认可。在代码智能领域，相比 DeepWiki 仅做代码解释，GitNexus 的图谱分析维度更深。",
+    "tags": ["AI", "Agent", "RAG", "代码分析"],
+    "language": "zh",
+    "status": "analyzed",
+    "distribution": { "telegram": false, "feishu": false },
+    "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+  },
+  {
+    "id": "gh-20260501-07",
+    "title": "lsdefine/GenericAgent",
+    "source": "github_trending",
+    "source_url": "https://github.com/lsdefine/GenericAgent",
+    "collected_at": "2026-05-01T13:18:05Z",
+    "published_at": "2026-05-01T13:18:05Z",
+    "summary": "极简可自我进化的自主 Agent 框架，核心代码仅 ~3K 行，通过 9 个原子工具（代码执行、文件读写、网页感知等）+ 约 100 行的 Agent Loop 赋予 LLM 系统级控制能力。核心创新在于「自我进化」机制：每解决一个新任务自动将执行路径固化为可复用的 Skill，形成专属技能树。分层记忆系统（L0-L4）将上下文窗口控制在 30K 以内，显著低于同类 Agent 的 200K-1M。已发表学术技术报告。",
+    "key_points": [
+      "极简架构：核心仅 ~3K 行代码，Agent Loop 约 100 行，无复杂依赖",
+      "自我进化：每解决一个新任务自动固化为 Skill，使用越久能力越强",
+      "极致省 Token：分层记忆将上下文窗口控制在 30K 以内，是同类 Agent 的 1/6 到 1/30",
+      "强执行力：注入真实浏览器（保留登录态），通过 9 个原子工具直接控制系统",
+      "支持 Claude / Gemini / Kimi / MiniMax 等主流模型，跨平台运行"
+    ],
+    "technical_highlights": [
+      "分层记忆系统（L0-L4）：从元规则到会话归档，实现信息密度最大化，大幅降低 Token 消耗",
+      "9 个原子工具的最小工具集设计，Agent 通过 code_run 自举扩展能力，而非预装海量工具",
+      "自我进化机制使每个 Agent 实例生长出完全个性化的专属技能树，非通用技能库"
+    ],
+    "value_score": 8,
+    "value_score_reason": "GenericAgent 的「自我进化」理念是差异化核心：不预设技能而是靠自主探索生长能力树，这与其他 Agent 框架「预装大量工具」的路径有本质区别。极简代码量（3K 行）和 30K 的上下文窗口展现了高效的设计哲学。有 arXiv 论文支撑，自举实证（项目代码完全由 Agent 自主构建）很有说服力。但 8.5k 星的规模说明仍处于早期阶段，大规模场景的可靠性需进一步验证。",
+    "tags": ["AI", "Agent", "LLM"],
+    "language": "zh",
+    "status": "analyzed",
+    "distribution": { "telegram": false, "feishu": false },
+    "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+  },
+  {
+    "id": "gh-20260501-08",
+    "title": "mksglu/context-mode",
+    "source": "github_trending",
+    "source_url": "https://github.com/mksglu/context-mode",
+    "collected_at": "2026-05-01T13:18:05Z",
+    "published_at": "2026-05-01T13:18:05Z",
+    "summary": "AI 编码 Agent 的上下文窗口优化工具。通过沙箱化工具输出（将工具结果存储在 SQLite 而非注入上下文窗口），实现 98% 的 Token 压缩率（315KB→5.4KB）。还提供会话连续性追踪（文件编辑、Git 操作、任务状态等事件索引至 FTS5）、「Think in Code」范式（让 Agent 写脚本分析而非读文件）、输出压缩（减少 65-75% 输出 Token）三大特性。支持 Claude Code、Cursor、VS Code Copilot、JetBrains、Codex CLI 等 14 个平台。",
+    "key_points": [
+      "沙箱化工具输出：将原始输出存入 SQLite，仅注入摘要至上下文，压缩率达 98%",
+      "会话连续性追踪：文件编辑、Git 操作、错误等事件索引至 FTS5，断点恢复时精确检索相关上下文",
+      "Think in Code 范式：引导 Agent 编写脚本分析数据而非逐文件读取，单次调用替代数十次 Read",
+      "输出压缩：采用类电报风格（省略冠词、填充词），减少 65-75% 输出 Token 而保留完整技术精度",
+      "覆盖 Claude Code、Cursor、VS Code Copilot、JetBrains、Codex CLI、Gemini CLI 等 14 个平台"
+    ],
+    "technical_highlights": [
+      "PreToolUse/PostToolUse 钩子链实现跨平台的工具输出拦截和路由，架构可扩展至更多编辑器",
+      "基于 SQLite FTS5 的全文检索引擎，在紧凑上下文后仍能精确检索历史事件",
+      "SessionStart 钩子在会话启动时自动恢复状态，使断点恢复后无需从头重新加载上下文"
+    ],
+    "value_score": 8,
+    "value_score_reason": "Context Mode 精准解决了 AI 编码 Agent 最痛的点——上下文窗口膨胀。98% 的压缩率数字惊人，且工程实现扎实（1000+ 次提交，覆盖 14 个平台）。已被 Microsoft、Google、Meta、Amazon、NVIDIA 等头部科技公司内部使用，验证了其实际价值。但 ELv2 许可证限制了商业使用场景。核心思路（沙箱化输出 + 索引检索）虽巧妙但非突破性创新。",
+    "tags": ["AI", "Agent", "MCP"],
+    "language": "zh",
+    "status": "analyzed",
+    "distribution": { "telegram": false, "feishu": false },
+    "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+  },
+  {
+    "id": "gh-20260501-09",
+    "title": "AIDC-AI/Pixelle-Video",
+    "source": "github_trending",
+    "source_url": "https://github.com/AIDC-AI/Pixelle-Video",
+    "collected_at": "2026-05-01T13:18:05Z",
+    "published_at": "2026-05-01T13:18:05Z",
+    "summary": "AI 全自动短视频生成引擎，输入一个主题即可自动完成文案撰写、AI 配图/视频生成、语音合成、背景音乐添加和视频合成。基于 ComfyUI 架构实现原子能力的灵活组合（可替换生图模型为 FLUX、TTS 为 ChatTTS 等），提供 Web UI 操作界面。支持 GPT、通义千问、DeepSeek、Ollama 等多种 LLM 后端，以及 Edge-TTS、Index-TTS 等多种语音方案。提供 Windows 一键整合包降低使用门槛。",
+    "key_points": [
+      "全自动流程：输入主题即可自动完成文案、配图、配音、配乐和视频合成的完整流程",
+      "基于 ComfyUI 架构的模块化设计，各原子能力（生图、TTS、视频合成）可灵活替换",
+      "支持 10+ 种 LLM 后端（GPT、通义千问、DeepSeek、Ollama 等）和多种 TTS 方案",
+      "提供 Windows 一键整合包，无需配置环境即可开箱即用",
+      "支持竖屏/横屏/方形多种视频尺寸，内置多种视觉模板"
+    ],
+    "technical_highlights": [
+      "ComfyUI 工作流驱动的模块化架构，用户可自定义替换任意原子能力（生图/TTS/视频模型）",
+      "支持动作迁移和数字人口播等高级视频生成能力",
+      "基于 RunningHub 的云端 ComfyUI 调用，无需本地 GPU 即可完成视频生成"
+    ],
+    "value_score": 6,
+    "value_score_reason": "Pixelle-Video 是一个功能完善的 AI 视频生成工具，但该赛道已有 MoneyPrinterTurbo、NarratoAI 等多个成熟开源项目，差异化不足。核心价值在于基于 ComfyUI 的模块化设计带来的灵活性，以及 Windows 整合包的易用性。但技术层面更多是现有能力的集成组装而非原创突破。8.5k 星反映了视频创作领域的需求热度。",
+    "tags": ["AI", "AIGC", "Video Generation"],
+    "language": "zh",
+    "status": "analyzed",
+    "distribution": { "telegram": false, "feishu": false },
+    "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+  },
+  {
+    "id": "gh-20260501-10",
+    "title": "CJackHwang/ds2api",
+    "source": "github_trending",
+    "source_url": "https://github.com/CJackHwang/ds2api",
+    "collected_at": "2026-05-01T13:18:05Z",
+    "published_at": "2026-05-01T13:18:05Z",
+    "summary": "Go 语言实现的 DeepSeek 兼容中间件接口，将 DeepSeek Web 对话能力转换为 OpenAI、Claude 与 Gemini 兼容的 API。后端纯 Go 实现，前端 React WebUI 管理台。核心能力包括多账号轮询、并发队列控制、DeepSeek PoW 纯 Go 实现、Tool Calling 防泄漏处理、多平台兼容（Codex CLI、OpenAI/Anthropic SDK、Vercel AI SDK、LangChain 等）。支持 Docker、Vercel Serverless 和 Zeabur 一键部署。",
+    "key_points": [
+      "将 DeepSeek 的对话能力包装为 OpenAI/Claude/Gemini 三种兼容 API 接口",
+      "Go 全量实现后端，提供高效的多账号轮询和并发队列控制",
+      "DeepSeek PoW 采用纯 Go 实现，毫秒级响应",
+      "Tool Calling 防泄漏处理：仅在非代码块上下文启用执行识别，支持 DSML 规范输出",
+      "提供 React WebUI 管理台（/admin），支持配置管理、账号测试、会话清理等功能"
+    ],
+    "technical_highlights": [
+      "三协议兼容（OpenAI/Claude/Gemini），通过统一 PromptCompat 内核处理请求适配",
+      "纯 Go 实现的 DeepSeekHashV1 PoW 算法，性能优于 Python/Node 方案",
+      "智能 Tool Calling 解析：区分代码块示例和实际执行调用，避免误触发工具执行"
+    ],
+    "value_score": 5,
+    "value_score_reason": "ds2api 工程实现扎实（834 次提交，52 个 Release），Go 实现的 PoW 效率高，多协议兼容实用。但本质上是一个 API 代理/协议转换工具，没有算法或系统层面的创新。类似的开源项目（如 one-api、new-api 等）已有多款成熟方案。3k 星的规模也说明该项目更多是满足特定小众需求。对于不需要 DeepSeek 账号池化的用户，价值有限。",
+    "tags": ["AI", "LLM"],
+    "language": "zh",
+    "status": "analyzed",
+    "distribution": { "telegram": false, "feishu": false },
+    "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "id": "gh-20260501-04",
+  "title": "TauricResearch/TradingAgents",
+  "source": "github_trending",
+  "source_url": "https://github.com/TauricResearch/TradingAgents",
+  "collected_at": "2026-05-01T13:18:05Z",
+  "published_at": "2026-05-01T13:18:05Z",
+  "summary": "基于多智能体 LLM 的金融量化交易框架，模拟真实交易公司的组织架构。系统包含基本面分析师、情绪分析师、新闻分析师、技术分析师四类分析角色，搭配多头/空头研究员进行辩论式验证，再由 Trader Agent 制定交易决策，经风险管理部门评估后由投资组合经理最终批准。基于 LangGraph 构建，支持 LangGraph Checkpoint 断点续跑和持久化决策日志。配套学术论文发表于 arXiv。",
+  "key_points": [
+    "多 Agent 协作架构，模拟真实量化交易公司的组织分工和决策流程",
+    "包含基本面/情绪/新闻/技术四类分析师 + 多头/空头研究员 + Trader + 风控 + 投资组合经理",
+    "基于 LangGraph 构建，支持断点续跑（Checkpoint Resume）和持久化决策日志",
+    "支持 OpenAI、Google、Anthropic、xAI、DeepSeek、Qwen 等十余种 LLM 后端",
+    "附有学术论文支撑（arXiv 2412.20138），已被引用多次"
+  ],
+  "tags": ["ai", "agent", "llm", "finance"],
+  "language": "zh",
+  "status": "analyzed",
+  "distribution": {
+    "telegram": false,
+    "feishu": false
+  },
+  "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+}

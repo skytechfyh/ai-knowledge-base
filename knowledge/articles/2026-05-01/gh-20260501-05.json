@@ -1,0 +1,24 @@
+{
+  "id": "gh-20260501-05",
+  "title": "huggingface/ml-intern",
+  "source": "github_trending",
+  "source_url": "https://github.com/huggingface/ml-intern",
+  "collected_at": "2026-05-01T13:18:05Z",
+  "published_at": "2026-05-01T13:18:05Z",
+  "summary": "Hugging Face 出品的开源 ML 工程师 Agent，能够自主阅读论文、训练模型、部署 ML 模型。深度集成 Hugging Face 生态，通过 ToolRouter 提供对 HF 文档、数据集、模型仓库、GitHub 代码搜索、沙箱执行等工具的访问。采用 submission_loop 架构，支持最多 300 次迭代的自主循环，包含 doom loop 检测机制防止 Agent 陷入死循环。会话自动上传至 HF Dataset，支持 Agent Trace Viewer 查看。",
+  "key_points": [
+    "从论文阅读到模型训练再到部署的端到端自动化 ML Agent",
+    "深度集成 Hugging Face 生态：HF 文档、数据集、模型仓库、Space 等一站式访问",
+    "submission_loop 架构支持最多 300 次自主迭代循环",
+    "内置 Doom Loop Detector 检测重复工具调用模式并注入纠正提示",
+    "自动压缩上下文（170K 阈值触发），支持 Slack 通知网关"
+  ],
+  "tags": ["ai", "agent", "machine learning"],
+  "language": "zh",
+  "status": "analyzed",
+  "distribution": {
+    "telegram": false,
+    "feishu": false
+  },
+  "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+}

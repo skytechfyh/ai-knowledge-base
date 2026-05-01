@@ -1,0 +1,24 @@
+{
+  "id": "gh-20260501-02",
+  "title": "forrestchang/andrej-karpathy-skills",
+  "source": "github_trending",
+  "source_url": "https://github.com/forrestchang/andrej-karpathy-skills",
+  "collected_at": "2026-05-01T13:18:05Z",
+  "published_at": "2026-05-01T13:18:05Z",
+  "summary": "基于 Andrej Karpathy 对 LLM 编程缺陷观察提炼的单文件 CLAUDE.md 指南，包含四条核心原则：先思考再编码（Think Before Coding）、简洁至上（Simplicity First）、精准修改（Surgical Changes）、目标驱动执行（Goal-Driven Execution）。每条原则对应 AI 编码 Agent 的典型失败模式（假设过多、过度抽象、误改无关代码、缺乏验证循环），通过明确的指令约束 Agent 行为。支持 Claude Code 插件安装，也兼容 Cursor。",
+  "key_points": [
+    "提炼自 Andrej Karpathy 对 LLM 编程缺陷的系统性观察，针对性强",
+    "四条核心原则直击 AI 编码 Agent 的四大典型失败模式",
+    "Goal-Driven Execution 原则将指令式任务转化为声明式目标+验证循环，利用 LLM 擅长循环验证的优势",
+    "单文件 CLAUDE.md 设计，安装简便，可通过 curl 或插件市场引入",
+    "项目代码库本身完全由 AI Agent 自主构建，体现了该指南的实际效果"
+  ],
+  "tags": ["ai", "claude", "llm", "prompt engineering"],
+  "language": "zh",
+  "status": "analyzed",
+  "distribution": {
+    "telegram": false,
+    "feishu": false
+  },
+  "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+}

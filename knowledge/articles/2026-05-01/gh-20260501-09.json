@@ -1,0 +1,24 @@
+{
+  "id": "gh-20260501-09",
+  "title": "AIDC-AI/Pixelle-Video",
+  "source": "github_trending",
+  "source_url": "https://github.com/AIDC-AI/Pixelle-Video",
+  "collected_at": "2026-05-01T13:18:05Z",
+  "published_at": "2026-05-01T13:18:05Z",
+  "summary": "AI 全自动短视频生成引擎，输入一个主题即可自动完成文案撰写、AI 配图/视频生成、语音合成、背景音乐添加和视频合成。基于 ComfyUI 架构实现原子能力的灵活组合（可替换生图模型为 FLUX、TTS 为 ChatTTS 等），提供 Web UI 操作界面。支持 GPT、通义千问、DeepSeek、Ollama 等多种 LLM 后端，以及 Edge-TTS、Index-TTS 等多种语音方案。提供 Windows 一键整合包降低使用门槛。",
+  "key_points": [
+    "全自动流程：输入主题即可自动完成文案、配图、配音、配乐和视频合成的完整流程",
+    "基于 ComfyUI 架构的模块化设计，各原子能力（生图、TTS、视频合成）可灵活替换",
+    "支持 10+ 种 LLM 后端（GPT、通义千问、DeepSeek、Ollama 等）和多种 TTS 方案",
+    "提供 Windows 一键整合包，无需配置环境即可开箱即用",
+    "支持竖屏/横屏/方形多种视频尺寸，内置多种视觉模板"
+  ],
+  "tags": ["ai", "aigc", "video generation"],
+  "language": "zh",
+  "status": "analyzed",
+  "distribution": {
+    "telegram": false,
+    "feishu": false
+  },
+  "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+}

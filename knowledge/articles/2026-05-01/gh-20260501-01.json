@@ -1,0 +1,24 @@
+{
+  "id": "gh-20260501-01",
+  "title": "mattpocock/skills",
+  "source": "github_trending",
+  "source_url": "https://github.com/mattpocock/skills",
+  "collected_at": "2026-05-01T13:18:05Z",
+  "published_at": "2026-05-01T13:18:05Z",
+  "summary": "Matt Pocock 出品的 AI 编程 Agent 技能（Skills）集合，包含一系列可复用、可组合的工程实践技能，涵盖需求对齐（grill-me）、测试驱动开发（tdd）、调试诊断（diagnose）、架构改进（improve-codebase-architecture）等核心场景。每个 Skill 以 Markdown 文件定义，通过 npx 一键安装到 Claude Code、Cursor、Codex 等主流 AI 编码工具中。核心设计哲学强调小粒度、易适配、可组合，反对大而全的「笼统方案」——让 Agent 真正理解代码库上下文，而非单纯追求自动化。",
+  "key_points": [
+    "提供一套针对 AI 编码 Agent 的可复用工程技能，涵盖需求对齐、TDD、调试、代码审查等环节",
+    "核心设计理念是小粒度、可组合、易适配，与 GSD/BMAD 等大而全方案形成对比",
+    "通过 npx skills@latest add 一键安装，支持 Claude Code、Cursor、Codex 等多种 AI 工具",
+    "包含 grill-me（需求对齐）、tdd（红绿重构）、diagnose（调试诊断）、improve-codebase-architecture（架构改进）等旗舰技能",
+    "强调共享语言（CONTEXT.md）和 ADR 文档来减少 Agent 的 token 消耗并提高代码一致性"
+  ],
+  "tags": ["ai", "claude", "ai agent"],
+  "language": "zh",
+  "status": "analyzed",
+  "distribution": {
+    "telegram": false,
+    "feishu": false
+  },
+  "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+}

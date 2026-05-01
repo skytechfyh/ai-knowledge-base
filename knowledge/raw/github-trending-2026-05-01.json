@@ -1,0 +1,161 @@
+[
+  {
+    "repo_name": "mattpocock/skills",
+    "description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "language": "Shell",
+    "stars": 51241,
+    "weekly_stars": 30945,
+    "forks": 4274,
+    "repo_url": "https://github.com/mattpocock/skills",
+    "tags": [
+      "AI",
+      "Claude"
+    ],
+    "source": "github_trending",
+    "collected_at": "2026-05-01T13:18:05Z"
+  },
+  {
+    "repo_name": "forrestchang/andrej-karpathy-skills",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "language": null,
+    "stars": 104056,
+    "weekly_stars": 23062,
+    "forks": 10256,
+    "repo_url": "https://github.com/forrestchang/andrej-karpathy-skills",
+    "tags": [
+      "AI",
+      "Claude",
+      "LLM"
+    ],
+    "source": "github_trending",
+    "collected_at": "2026-05-01T13:18:05Z"
+  },
+  {
+    "repo_name": "Alishahryar1/free-claude-code",
+    "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+    "language": "Python",
+    "stars": 19495,
+    "weekly_stars": 14666,
+    "forks": 2771,
+    "repo_url": "https://github.com/Alishahryar1/free-claude-code",
+    "tags": [
+      "AI",
+      "Claude",
+      "LLM"
+    ],
+    "source": "github_trending",
+    "collected_at": "2026-05-01T13:18:05Z"
+  },
+  {
+    "repo_name": "TauricResearch/TradingAgents",
+    "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+    "language": "Python",
+    "stars": 58763,
+    "weekly_stars": 5995,
+    "forks": 11219,
+    "repo_url": "https://github.com/TauricResearch/TradingAgents",
+    "tags": [
+      "AI",
+      "Agent",
+      "LLM",
+      "Finance"
+    ],
+    "source": "github_trending",
+    "collected_at": "2026-05-01T13:18:05Z"
+  },
+  {
+    "repo_name": "huggingface/ml-intern",
+    "description": "🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models",
+    "language": "Python",
+    "stars": 7804,
+    "weekly_stars": 5665,
+    "forks": 753,
+    "repo_url": "https://github.com/huggingface/ml-intern",
+    "tags": [
+      "AI",
+      "Agent",
+      "Machine Learning"
+    ],
+    "source": "github_trending",
+    "collected_at": "2026-05-01T13:18:05Z"
+  },
+  {
+    "repo_name": "abhigyanpatwari/GitNexus",
+    "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+    "language": "TypeScript",
+    "stars": 33907,
+    "weekly_stars": 5209,
+    "forks": 3854,
+    "repo_url": "https://github.com/abhigyanpatwari/GitNexus",
+    "tags": [
+      "AI",
+      "Agent",
+      "RAG"
+    ],
+    "source": "github_trending",
+    "collected_at": "2026-05-01T13:18:05Z"
+  },
+  {
+    "repo_name": "lsdefine/GenericAgent",
+    "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+    "language": "Python",
+    "stars": 8570,
+    "weekly_stars": 2350,
+    "forks": 978,
+    "repo_url": "https://github.com/lsdefine/GenericAgent",
+    "tags": [
+      "AI",
+      "Agent",
+      "LLM"
+    ],
+    "source": "github_trending",
+    "collected_at": "2026-05-01T13:18:05Z"
+  },
+  {
+    "repo_name": "mksglu/context-mode",
+    "description": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 14 platforms",
+    "language": "TypeScript",
+    "stars": 11608,
+    "weekly_stars": 2332,
+    "forks": 793,
+    "repo_url": "https://github.com/mksglu/context-mode",
+    "tags": [
+      "AI",
+      "Agent",
+      "MCP"
+    ],
+    "source": "github_trending",
+    "collected_at": "2026-05-01T13:18:05Z"
+  },
+  {
+    "repo_name": "AIDC-AI/Pixelle-Video",
+    "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+    "language": "Python",
+    "stars": 8572,
+    "weekly_stars": 2064,
+    "forks": 1376,
+    "repo_url": "https://github.com/AIDC-AI/Pixelle-Video",
+    "tags": [
+      "AI",
+      "AIGC",
+      "Video Generation"
+    ],
+    "source": "github_trending",
+    "collected_at": "2026-05-01T13:18:05Z"
+  },
+  {
+    "repo_name": "CJackHwang/ds2api",
+    "description": "DeepSeek-Compatible Middleware Interface: A technical exploration project in Go, focusing on high-concurrency protocol adaptation. It serves as a reference implementation for converting diverse web protocols into standardized formats.",
+    "language": "Go",
+    "stars": 3014,
+    "weekly_stars": 1726,
+    "forks": 794,
+    "repo_url": "https://github.com/CJackHwang/ds2api",
+    "tags": [
+      "AI",
+      "LLM"
+    ],
+    "source": "github_trending",
+    "collected_at": "2026-05-01T13:18:05Z"
+  }
+]

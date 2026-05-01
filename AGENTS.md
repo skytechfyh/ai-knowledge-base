@@ -94,10 +94,11 @@ ai-knowledge-base/
 | 角色 | 名称 | 职责 | 输入 | 输出 |
 |------|------|------|------|------|
 | 采集 Agent | `collector` | 定时访问 GitHub Trending 和 Hacker News，过滤 AI/LLM/Agent 相关条目，将原始数据落盘 | 调度触发信号 | `knowledge/raw/*.json` |
-| 分析 Agent | `analyzer` | 读取原始数据，调用大模型生成中文摘要、提取关键点和标签，更新 status | `raw` 状态的 JSON 文件 | `knowledge/articles/**/*.json`（status: analyzed） |
-| 整理 Agent | `publisher` | 将 `analyzed` 条目按渠道格式化后推送至 Telegram / 飞书，推送成功后更新 distribution 和 status | `analyzed` 状态的 JSON 文件 | 推送结果日志；条目 status 更新为 `published` |
+| 分析 Agent | `analyzer` | 读取原始数据，调用大模型生成中文摘要、提取关键点和标签，更新 status | `knowledge/raw/` 中的原始 JSON | 增强后的 JSON（含 summary / key_points / tags / score） |
+| 整理 Agent | `organizer` | 读取 analyzer 输出的增强 JSON，执行去重校验、格式标准化，按标准条目格式拆分为独立文件 | 增强 JSON 数组 | `knowledge/articles/<YYYY-MM-DD>/<id>.json`（status: analyzed） |
+| 分发 Agent | `publisher` | 将 `analyzed` 条目按渠道格式化后推送至 Telegram / 飞书，推送成功后更新 distribution 和 status | `analyzed` 状态的 JSON 文件 | 推送结果日志；条目 status 更新为 `published` |
 
-Agent 之间通过 LangGraph 状态机编排，`collector` 完成后触发 `analyzer`，`analyzer` 完成后触发 `publisher`，任意节点失败时整条链路进入 `error` 状态并告警。
+Agent 之间通过 LangGraph 状态机编排，`collector` → `analyzer` → `organizer` → `publisher` 顺序执行，任意节点失败时整条链路进入 `error` 状态并告警。
 
 ---
 

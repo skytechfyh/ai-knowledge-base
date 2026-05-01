@@ -1,0 +1,24 @@
+{
+  "id": "gh-20260501-08",
+  "title": "mksglu/context-mode",
+  "source": "github_trending",
+  "source_url": "https://github.com/mksglu/context-mode",
+  "collected_at": "2026-05-01T13:18:05Z",
+  "published_at": "2026-05-01T13:18:05Z",
+  "summary": "AI 编码 Agent 的上下文窗口优化工具。通过沙箱化工具输出（将工具结果存储在 SQLite 而非注入上下文窗口），实现 98% 的 Token 压缩率（315KB→5.4KB）。还提供会话连续性追踪（文件编辑、Git 操作、任务状态等事件索引至 FTS5）、「Think in Code」范式（让 Agent 写脚本分析而非读文件）、输出压缩（减少 65-75% 输出 Token）三大特性。支持 Claude Code、Cursor、VS Code Copilot、JetBrains、Codex CLI 等 14 个平台。",
+  "key_points": [
+    "沙箱化工具输出：将原始输出存入 SQLite，仅注入摘要至上下文，压缩率达 98%",
+    "会话连续性追踪：文件编辑、Git 操作、错误等事件索引至 FTS5，断点恢复时精确检索相关上下文",
+    "Think in Code 范式：引导 Agent 编写脚本分析数据而非逐文件读取，单次调用替代数十次 Read",
+    "输出压缩：采用类电报风格（省略冠词、填充词），减少 65-75% 输出 Token 而保留完整技术精度",
+    "覆盖 Claude Code、Cursor、VS Code Copilot、JetBrains、Codex CLI、Gemini CLI 等 14 个平台"
+  ],
+  "tags": ["ai", "agent", "mcp"],
+  "language": "zh",
+  "status": "analyzed",
+  "distribution": {
+    "telegram": false,
+    "feishu": false
+  },
+  "raw_file": "knowledge/raw/github-trending-2026-05-01.json"
+}
